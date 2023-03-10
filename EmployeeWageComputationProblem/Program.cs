@@ -7,7 +7,7 @@
             Console.WriteLine("Welcome to Employee Wage Computation Problem ");
             EmployeeAttandance EmployeeAttandance = new EmployeeAttandance();
             EmployeeAttandance.attandance();
-            EmployeeAttandance.DailyWage();
+            EmployeeAttandance.WageForMonth();
 
         }
     }
