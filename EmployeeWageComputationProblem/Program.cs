@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome Employee Wage Program!");
-            EmployeeAttaindance EmployeeAttaindance = new EmployeeAttaindance();
-            EmployeeAttaindance.attandance();
+            Console.WriteLine("Welcome to Employee Wage Computation Problem ");
+            EmployeeAttandance EmployeeAttandance = new EmployeeAttandance();
+            EmployeeAttandance.attandance();
+            EmployeeAttandance.DailyWage();
+
         }
     }
 }
